@@ -1,0 +1,116 @@
+.professional__item {
+  background-color: #FFFFFF;
+  border-radius: 3.6rem;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 1120px) {
+  .professional__item {
+    max-width: 52.8rem;
+    margin: 0 auto;
+  }
+}
+.professional__item + .professional__item {
+  margin-top: 4.2rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .professional__item-img {
+    max-height: 34rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  .professional__item-img img {
+    max-width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+}
+.professional__item-wrap {
+  display: flex;
+  align-items: center;
+  gap: calc(20px + 80 * (100vw - 375px) / 1545);
+}
+
+@media only screen and (max-width: 1120px) {
+  .professional__item-wrap {
+    flex-direction: column;
+    gap: 0;
+  }
+}
+.professional__item-info {
+  color: #062129;
+  max-width: 52.8rem;
+  padding-right: 2rem;
+}
+
+@media only screen and (max-width: 1120px) {
+  .professional__item-info {
+    padding: 3.2rem 2.4rem;
+  }
+}
+.professional__item-info h3 {
+  font-size: 3.6rem;
+  font-weight: bold;
+  line-height: 140%;
+}
+
+@media only screen and (max-width: 576px) {
+  .professional__item-info h3 {
+    font-size: 2.6rem;
+  }
+}
+.professional__item-info p {
+  margin-top: 3.2rem;
+  font-size: 1.6rem;
+  line-height: 160%;
+  color: #062129;
+  opacity: 1;
+}
+
+@media only screen and (max-width: 576px) {
+  .professional__item-info p {
+    font-size: 1.4rem;
+    margin-top: 2.4rem;
+  }
+}
+.professional__item-bottom {
+  margin-top: 10rem;
+  background: #F0F3F4;
+  border-radius: 1.8rem;
+  padding: 2.8rem 3.2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.professional__item-bottom p {
+  margin: 0;
+  font-size: 1.4rem;
+  opacity: 0.6;
+  line-height: 160%;
+}
+
+.professional__item-bottom h5 {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 160%;
+  margin-top: 0.6rem;
+}
+
+@media only screen and (max-width: 576px) {
+  .professional__item-bottom {
+    margin-top: 2.4rem;
+  }
+  .professional__item-bottom p {
+    font-size: 1.2rem;
+  }
+  .professional__item-bottom h5 {
+    font-size: 1.4rem;
+  }
+}
+.professional-contact {
+  margin-top: 4.2rem;
+  padding: 0 !important;
+}

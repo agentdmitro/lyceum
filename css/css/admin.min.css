@@ -1,0 +1,52 @@
+.admin-page {
+  background-color: #F0F3F4;
+}
+
+.admin {
+  padding: 9.2rem 0 13.4rem;
+}
+
+.admin__block {
+  background-color: #FFFFFF;
+  border-radius: 2.4rem;
+  overflow: hidden;
+  margin: 0 auto;
+  max-width: 41.6rem;
+}
+
+.admin__block-img {
+  text-align: center;
+  overflow: hidden;
+  max-height: 30rem;
+  padding: 2.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e7e7e7;
+  padding-bottom: 0;
+}
+
+.admin__block-img img {
+  max-width: 100%;
+  max-height: 28rem;
+  height: auto;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.admin__block-content {
+  padding: 4.2rem;
+  padding-bottom: 5.2rem;
+  color: #062129;
+}
+
+.admin__block-content h4 {
+  font-size: 2.4rem;
+  font-weight: 500;
+  line-height: 3rem;
+}
+
+.admin__block-content p {
+  margin-top: 2.4rem;
+  font-size: 1.6rem;
+}

@@ -1,0 +1,12 @@
+.navigation {
+  padding: 6rem 0;
+  background-color: #F0F3F4;
+}
+.navigation__bttns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navigation__bttn.bttn--black::after {
+  display: none;
+}

@@ -1,0 +1,116 @@
+.rewiews {
+  padding: 10rem 1.6rem;
+}
+
+@media only screen and (max-width: 576px) {
+  .rewiews {
+    padding: 5rem 1.6rem;
+  }
+}
+.rewiews__container {
+  padding: 0;
+}
+
+@media (max-width: 1120px) {
+  .rewiews__container {
+    max-width: 52.8rem;
+  }
+}
+.rewiews__wrap {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  background-color: #062129;
+  border-radius: 3.6rem;
+  overflow: hidden;
+  color: #FFFFFF;
+  gap: 144px;
+}
+
+@media (max-width: 1344px) {
+  .rewiews__wrap {
+    gap: calc(20px + 124 * (100vw - 375px) / 969);
+  }
+}
+@media only screen and (max-width: 1120px) {
+  .rewiews__wrap {
+    flex-direction: column;
+    gap: 0;
+  }
+}
+.rewiews__content {
+  padding: 4rem 11.2rem 2rem 0;
+}
+
+@media only screen and (max-width: 1120px) {
+  .rewiews__content {
+    padding: 6rem 5rem 2rem;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .rewiews__content {
+    padding: 6rem 3rem 2rem;
+  }
+}
+.rewiews__text {
+  font-size: 2rem;
+  line-height: 150%;
+}
+
+@media only screen and (max-width: 576px) {
+  .rewiews__text {
+    font-size: 1.6rem;
+  }
+}
+.rewiews__text span {
+  font-size: inherit;
+  color: #2FCCB9;
+}
+
+.rewiews__text::before {
+  content: "";
+  position: absolute;
+  top: -2.5rem;
+  left: -8rem;
+  background-image: url(../img/rewiews/quote.svg);
+  background-repeat: no-repeat;
+  width: 46px;
+  height: 46px;
+}
+
+@media only screen and (max-width: 1120px) {
+  .rewiews__text::before {
+    left: -2rem;
+    top: -3.4rem;
+  }
+}
+.rewiews__author {
+  margin-top: 6.4rem;
+}
+
+@media only screen and (max-width: 576px) {
+  .rewiews__author {
+    margin-top: 2rem;
+  }
+}
+.rewiews__author-name {
+  font-size: 1.4rem;
+  line-height: 150%;
+}
+
+.rewiews__author-post {
+  margin-top: 0.4rem;
+  font-size: 1.2rem;
+  line-height: 150%;
+  opacity: 0.6;
+}
+
+.rewiews__img {
+  display: flex;
+}
+
+@media only screen and (max-width: 576px) {
+  .rewiews__img img {
+    max-width: 100%;
+  }
+}

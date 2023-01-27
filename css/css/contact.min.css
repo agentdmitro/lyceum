@@ -1,0 +1,84 @@
+.contact {
+  padding-bottom: 14.4rem;
+}
+
+.contact__items {
+  margin-top: 4.6rem;
+}
+
+.contact__wrap {
+  background-color: #FFFFFF;
+  padding: 7.8rem 9.6rem;
+  border-radius: 2.4rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .contact__wrap {
+    padding: 3rem 2rem;
+  }
+}
+.contact__item {
+  display: flex;
+  align-items: center;
+  padding-top: 3.8rem;
+  border-top: 1px solid #D9D9D9;
+  gap: 60px;
+}
+
+@media (max-width: 1344px) {
+  .contact__item {
+    gap: calc(10px + 50 * (100vw - 375px) / 969);
+  }
+}
+.contact__item + .contact__item {
+  margin-top: 3.8rem;
+}
+
+@media only screen and (max-width: 576px) {
+  .contact__item {
+    padding-top: 2.7rem;
+    align-items: start;
+    flex-direction: column;
+  }
+}
+.contact__info {
+  color: #062129;
+  width: 64.7rem;
+  max-width: 100%;
+}
+
+.contact__info h5 {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.9rem;
+}
+
+.contact__info p {
+  margin-top: 1rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.7rem;
+  opacity: 0.6;
+}
+
+@media only screen and (max-width: 576px) {
+  .contact__info p {
+    font-weight: 500;
+    font-size: 1.6rem;
+  }
+}
+.contact__item-link {
+  white-space: nowrap;
+  font-size: 2rem;
+  line-height: 3rem;
+}
+
+@media only screen and (max-width: 576px) {
+  .contact__item-link {
+    font-weight: 500;
+  }
+}
+.contact__bttn {
+  margin-top: 6.1rem;
+  display: flex;
+}

@@ -1,0 +1,15 @@
+.spec {
+  padding: 10rem 0 14rem;
+  background-color: #F0F3F4;
+}
+.spec__title {
+  max-width: 82rem;
+}
+.spec__container > .blocks__wrap {
+  margin-top: 8rem;
+}
+@media only screen and (max-width: 576px) {
+  .spec {
+    padding: 6.3rem 0 10rem;
+  }
+}
